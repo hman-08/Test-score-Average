@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+
+    printf("~Test Score Average~\n\nThis code averages your \ntest scores(up to 3 tests)\n\n-Made by hman08\n\n");
+    int score1 = get_int("Test score 1 = ");
+    int score2 = get_int("Test score 2 = ");
+    int score3 = get_int("Test score 3 = ");
+
+
+
+
+
+    printf("Average: %f\n", (score1 + score2 + score3) / 3.0);
+
+}
